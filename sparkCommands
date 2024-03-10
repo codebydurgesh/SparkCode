@@ -1,0 +1,4 @@
+READ a file in multiple partitions  instead 1(defaut) from begining
+- spak.conf.set("spark.sql.files.maxPartitionBytes",<size in bytes>)
+- spak.conf.set("spark.sql.files.maxPartitionBytes","1000")
+  
